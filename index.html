@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Javascript Calculator</title>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="prefixfree.min.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="calculator">
+      <div class="top">
+        <span class="clear" id="clear">C</span>
+        <div class="display" id="display"> </div>
+      </div>
+         <div class="numeros">
+          <span class="numero">7</span>
+          <span class="numero">8</span>
+          <span class="numero">9</span>
+          <span class="operador suma">+</span>
+          <span class="numero">4</span>
+          <span class="numero">5</span>
+          <span class="numero">6</span>
+          <span class="operador resta">-</span>
+          <span class="numero">1</span>
+          <span class="numero">2</span>
+          <span class="numero">3</span>
+          <span class="operador multi">x</span>
+          <span class="numero">.</span>
+          <span class="numero">0</span>
+          <span class="eval" id="eval">=</span>
+          <span class="operador division">/</span>
+
+         </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="script.js"></script>
+  </body>
+</html>
